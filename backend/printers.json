@@ -1,0 +1,1826 @@
+[
+    {
+        "id": 0,
+        "name": "Image",
+        "resolution": {
+            "x": 3000,
+            "y": 2000
+        },
+        "size": {
+            "w": 300,
+            "h": 200
+        }
+    },
+    {
+        "id": 1,
+        "name": "Anet N4",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 2,
+        "name": "Anet N7",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 3,
+        "name": "AnyCubic Photon M3",
+        "resolution": {
+            "x": 4096,
+            "y": 2560
+        },
+        "size": {
+            "w": 163.84,
+            "h": 102.4
+        }
+    },
+    {
+        "id": 4,
+        "name": "AnyCubic Photon M3",
+        "resolution": {
+            "x": 4096,
+            "y": 2560
+        },
+        "size": {
+            "w": 163.84,
+            "h": 102.4
+        }
+    },
+    {
+        "id": 5,
+        "name": "AnyCubic Photon M3 Max",
+        "resolution": {
+            "x": 6480,
+            "y": 3600
+        },
+        "size": {
+            "w": 298.08,
+            "h": 165.6
+        }
+    },
+    {
+        "id": 6,
+        "name": "AnyCubic Photon M3 Plus",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 198.15,
+            "h": 123.84
+        }
+    },
+    {
+        "id": 7,
+        "name": "AnyCubic Photon M3 Premium",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 8,
+        "name": "AnyCubic Photon Mono M5",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 9,
+        "name": "AnyCubic Photon Mono M5s",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 10,
+        "name": "AnyCubic Photon Mono M5s Pro",
+        "resolution": {
+            "x": 13312,
+            "y": 5120
+        },
+        "size": {
+            "w": 223.6416,
+            "h": 126.976
+        }
+    },
+    {
+        "id": 11,
+        "name": "AnyCubic Photon Mono M7",
+        "resolution": {
+            "x": 13312,
+            "y": 5120
+        },
+        "size": {
+            "w": 223.6416,
+            "h": 126.976
+        }
+    },
+    {
+        "id": 12,
+        "name": "AnyCubic Photon Mono M7 Pro",
+        "resolution": {
+            "x": 13312,
+            "y": 5120
+        },
+        "size": {
+            "w": 223.6416,
+            "h": 126.976
+        }
+    },
+    {
+        "id": 13,
+        "name": "AnyCubic Photon Mono M7 Max",
+        "resolution": {
+            "x": 6480,
+            "y": 3600
+        },
+        "size": {
+            "w": 298.08,
+            "h": 165.6
+        }
+    },
+    {
+        "id": 14,
+        "name": "AnyCubic Photon Mono",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 15,
+        "name": "AnyCubic Photon Mono 2",
+        "resolution": {
+            "x": 4096,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.36,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 16,
+        "name": "AnyCubic Photon Mono 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 134.4,
+            "h": 84.0
+        }
+    },
+    {
+        "id": 17,
+        "name": "AnyCubic Photon Mono 4",
+        "resolution": {
+            "x": 9024,
+            "y": 5120
+        },
+        "size": {
+            "w": 153.408,
+            "h": 87.04
+        }
+    },
+    {
+        "id": 18,
+        "name": "AnyCubic Photon Mono 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 134.4,
+            "h": 84.0
+        }
+    },
+    {
+        "id": 19,
+        "name": "AnyCubic Photon Mono 4 Ultra",
+        "resolution": {
+            "x": 9024,
+            "y": 5120
+        },
+        "size": {
+            "w": 153.408,
+            "h": 87.04
+        }
+    },
+    {
+        "id": 20,
+        "name": "AnyCubic Photon Mono 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 134.4,
+            "h": 84.0
+        }
+    },
+    {
+        "id": 21,
+        "name": "AnyCubic Photon Mono SE",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 22,
+        "name": "AnyCubic Photon Mono SQ",
+        "resolution": {
+            "x": 2400,
+            "y": 2560
+        },
+        "size": {
+            "w": 120.0,
+            "h": 128.0
+        }
+    },
+    {
+        "id": 23,
+        "name": "AnyCubic Photon Mono X 6K",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 198.15,
+            "h": 123.84
+        }
+    },
+    {
+        "id": 24,
+        "name": "AnyCubic Photon Mono X 6Ks",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 195.84,
+            "h": 122.4
+        }
+    },
+    {
+        "id": 25,
+        "name": "AnyCubic Photon Mono X",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 26,
+        "name": "AnyCubic Photon Mono X2",
+        "resolution": {
+            "x": 4096,
+            "y": 2560
+        },
+        "size": {
+            "w": 196.61,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 27,
+        "name": "AnyCubic Photon",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 28,
+        "name": "AnyCubic Photon S",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 29,
+        "name": "AnyCubic Photon Ultra",
+        "resolution": {
+            "x": 1280,
+            "y": 720
+        },
+        "size": {
+            "w": 102.4,
+            "h": 57.6
+        }
+    },
+    {
+        "id": 30,
+        "name": "AnyCubic Photon D2",
+        "resolution": {
+            "x": 2560,
+            "y": 1440
+        },
+        "size": {
+            "w": 130.56,
+            "h": 73.44
+        }
+    },
+    {
+        "id": 31,
+        "name": "AnyCubic Photon X",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 32,
+        "name": "AnyCubic Photon Zero",
+        "resolution": {
+            "x": 480,
+            "y": 854
+        },
+        "size": {
+            "w": 55.4,
+            "h": 98.63
+        }
+    },
+    {
+        "id": 33,
+        "name": "Concepts3D Athena 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 34,
+        "name": "Concepts3D Athena 12K",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 35,
+        "name": "Creality CT-005 Pro",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 36,
+        "name": "Creality CT-133 Pro",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 293.76,
+            "h": 165.24
+        }
+    },
+    {
+        "id": 37,
+        "name": "Creality Halot Lite CL-89L",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 38,
+        "name": "Creality Halot Max CL-133",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 293.76,
+            "h": 165.24
+        }
+    },
+    {
+        "id": 39,
+        "name": "Creality Halot One CL-60",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 81.0,
+            "h": 128.0
+        }
+    },
+    {
+        "id": 40,
+        "name": "Creality Halot One Plus CL-79",
+        "resolution": {
+            "x": 4320,
+            "y": 2560
+        },
+        "size": {
+            "w": 172.8,
+            "h": 102.4
+        }
+    },
+    {
+        "id": 41,
+        "name": "Creality Halot One Pro CL-70",
+        "resolution": {
+            "x": 2560,
+            "y": 2400
+        },
+        "size": {
+            "w": 130.56,
+            "h": 122.4
+        }
+    },
+    {
+        "id": 42,
+        "name": "Creality Halot Sky CL-89",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 43,
+        "name": "Creality Halot Sky Plus CL-92",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 198.14,
+            "h": 123.84
+        }
+    },
+    {
+        "id": 44,
+        "name": "Creality Halot Ray CL925",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 198.14,
+            "h": 123.84
+        }
+    },
+    {
+        "id": 45,
+        "name": "Creality Halot Mage CL-103L",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 228.096,
+            "h": 128.304
+        }
+    },
+    {
+        "id": 46,
+        "name": "Creality Halot Mage Pro CL-103",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 228.096,
+            "h": 128.304
+        }
+    },
+    {
+        "id": 47,
+        "name": "Creality LD-002H",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 48,
+        "name": "Creality LD-002R",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 49,
+        "name": "Creality LD-006",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 50,
+        "name": "Elegoo Jupiter",
+        "resolution": {
+            "x": 5448,
+            "y": 3064
+        },
+        "size": {
+            "w": 277.848,
+            "h": 156.264
+        }
+    },
+    {
+        "id": 51,
+        "name": "Elegoo Mars",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 52,
+        "name": "Elegoo Mars 2 Pro",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 53,
+        "name": "Elegoo Mars 2",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 54,
+        "name": "Elegoo Mars 3",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.43,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 55,
+        "name": "Elegoo Mars 3 Pro",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.43,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 56,
+        "name": "Elegoo Mars 4",
+        "resolution": {
+            "x": 8520,
+            "y": 4320
+        },
+        "size": {
+            "w": 153.36,
+            "h": 77.76
+        }
+    },
+    {
+        "id": 57,
+        "name": "Elegoo Mars 4 DLP",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 132.8,
+            "h": 74.7
+        }
+    },
+    {
+        "id": 58,
+        "name": "Elegoo Mars 4 Max",
+        "resolution": {
+            "x": 5760,
+            "y": 3600
+        },
+        "size": {
+            "w": 195.84,
+            "h": 122.4
+        }
+    },
+    {
+        "id": 59,
+        "name": "Elegoo Mars 4 Ultra",
+        "resolution": {
+            "x": 8520,
+            "y": 4320
+        },
+        "size": {
+            "w": 153.36,
+            "h": 77.76
+        }
+    },
+    {
+        "id": 60,
+        "name": "Elegoo Mars 5 Ultra",
+        "resolution": {
+            "x": 8520,
+            "y": 4320
+        },
+        "size": {
+            "w": 153.36,
+            "h": 77.76
+        }
+    },
+    {
+        "id": 61,
+        "name": "Elegoo Mars C",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 62,
+        "name": "Elegoo Saturn",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 63,
+        "name": "Elegoo Saturn 2",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 64,
+        "name": "Elegoo Saturn 3",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 65,
+        "name": "Elegoo Saturn 3 Ultra",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 66,
+        "name": "Elegoo Saturn 4 Ultra 12K",
+        "resolution": {
+            "x": 11520,
+            "y": 5120
+        },
+        "size": {
+            "w": 218.88,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 67,
+        "name": "Elegoo Saturn 4 Ultra 16K",
+        "resolution": {
+            "x": 15120,
+            "y": 6230
+        },
+        "size": {
+            "w": 211.68,
+            "h": 118.37
+        }
+    },
+    {
+        "id": 68,
+        "name": "Elegoo Saturn 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 69,
+        "name": "Elegoo Saturn S",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 196.704,
+            "h": 122.88
+        }
+    },
+    {
+        "id": 70,
+        "name": "EPAX DX1 PRO",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.43,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 71,
+        "name": "EPAX DX10 Pro 5K",
+        "resolution": {
+            "x": 4920,
+            "y": 2880
+        },
+        "size": {
+            "w": 221.4,
+            "h": 129.6
+        }
+    },
+    {
+        "id": 72,
+        "name": "EPAX DX10 Pro 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 73,
+        "name": "EPAX E10 5K",
+        "resolution": {
+            "x": 4920,
+            "y": 2880
+        },
+        "size": {
+            "w": 221.4,
+            "h": 129.6
+        }
+    },
+    {
+        "id": 74,
+        "name": "EPAX E10 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 75,
+        "name": "EPAX E10 Mono",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 76,
+        "name": "EPAX E6 Mono",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 81.0,
+            "h": 128.0
+        }
+    },
+    {
+        "id": 77,
+        "name": "EPAX X1 4KS",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.43,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 78,
+        "name": "EPAX X1",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 79,
+        "name": "EPAX X10 4K Mono",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 80,
+        "name": "EPAX X10 5K",
+        "resolution": {
+            "x": 4920,
+            "y": 2880
+        },
+        "size": {
+            "w": 221.4,
+            "h": 129.6
+        }
+    },
+    {
+        "id": 81,
+        "name": "EPAX X10",
+        "resolution": {
+            "x": 1600,
+            "y": 2560
+        },
+        "size": {
+            "w": 135.36,
+            "h": 216.57
+        }
+    },
+    {
+        "id": 82,
+        "name": "EPAX X133 4K Mono",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 293.76,
+            "h": 165.24
+        }
+    },
+    {
+        "id": 83,
+        "name": "EPAX X133 6K",
+        "resolution": {
+            "x": 5760,
+            "y": 3240
+        },
+        "size": {
+            "w": 288.0,
+            "h": 162.0
+        }
+    },
+    {
+        "id": 84,
+        "name": "EPAX X156 4K Color",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 345.6,
+            "h": 194.4
+        }
+    },
+    {
+        "id": 85,
+        "name": "EPAX X1K 2K Mono",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 86,
+        "name": "FlashForge Explorer MAX",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 87,
+        "name": "FlashForge Focus 13.3",
+        "resolution": {
+            "x": 3842,
+            "y": 2171
+        },
+        "size": {
+            "w": 292.0,
+            "h": 165.0
+        }
+    },
+    {
+        "id": 88,
+        "name": "FlashForge Focus 8.9",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 89,
+        "name": "FlashForge Foto 13.3",
+        "resolution": {
+            "x": 3842,
+            "y": 2171
+        },
+        "size": {
+            "w": 292.0,
+            "h": 165.0
+        }
+    },
+    {
+        "id": 90,
+        "name": "FlashForge Foto 6.0",
+        "resolution": {
+            "x": 2600,
+            "y": 1560
+        },
+        "size": {
+            "w": 130.0,
+            "h": 78.0
+        }
+    },
+    {
+        "id": 91,
+        "name": "FlashForge Foto 8.9",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 92,
+        "name": "FlashForge Foto 8.9S",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 93,
+        "name": "FlashForge Hunter",
+        "resolution": {
+            "x": 1920,
+            "y": 1080
+        },
+        "size": {
+            "w": 120.0,
+            "h": 67.5
+        }
+    },
+    {
+        "id": 94,
+        "name": "Emake3D Galaxy 1",
+        "resolution": {
+            "x": 8000,
+            "y": 4000
+        },
+        "size": {
+            "w": 400.0,
+            "h": 200.0
+        }
+    },
+    {
+        "id": 95,
+        "name": "Kelant S400",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 96,
+        "name": "Longer Orange 10",
+        "resolution": {
+            "x": 480,
+            "y": 854
+        },
+        "size": {
+            "w": 55.44,
+            "h": 98.64
+        }
+    },
+    {
+        "id": 97,
+        "name": "Longer Orange 120",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 98,
+        "name": "Longer Orange 30",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 99,
+        "name": "Longer Orange 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 6480
+        },
+        "size": {
+            "w": 120.96,
+            "h": 68.04
+        }
+    },
+    {
+        "id": 100,
+        "name": "Nova3D Bene4 Mono",
+        "resolution": {
+            "x": 1566,
+            "y": 2549
+        },
+        "size": {
+            "w": 79.865,
+            "h": 129.998
+        }
+    },
+    {
+        "id": 101,
+        "name": "Nova3D Bene4",
+        "resolution": {
+            "x": 1352,
+            "y": 2512
+        },
+        "size": {
+            "w": 70.0,
+            "h": 130.0
+        }
+    },
+    {
+        "id": 102,
+        "name": "Nova3D Bene5",
+        "resolution": {
+            "x": 1566,
+            "y": 2549
+        },
+        "size": {
+            "w": 79.865,
+            "h": 129.998
+        }
+    },
+    {
+        "id": 103,
+        "name": "Nova3D Bene6",
+        "resolution": {
+            "x": 4098,
+            "y": 2560
+        },
+        "size": {
+            "w": 143.43,
+            "h": 89.6
+        }
+    },
+    {
+        "id": 104,
+        "name": "Nova3D Elfin",
+        "resolution": {
+            "x": 1410,
+            "y": 2531
+        },
+        "size": {
+            "w": 73.0,
+            "h": 131.0
+        }
+    },
+    {
+        "id": 105,
+        "name": "Nova3D Elfin2 Mono SE",
+        "resolution": {
+            "x": 1470,
+            "y": 2549
+        },
+        "size": {
+            "w": 75.0,
+            "h": 130.0
+        }
+    },
+    {
+        "id": 106,
+        "name": "Nova3D Elfin2",
+        "resolution": {
+            "x": 1352,
+            "y": 2512
+        },
+        "size": {
+            "w": 70.0,
+            "h": 130.0
+        }
+    },
+    {
+        "id": 107,
+        "name": "Nova3D Elfin3 Mini",
+        "resolution": {
+            "x": 1079,
+            "y": 1904
+        },
+        "size": {
+            "w": 68.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 108,
+        "name": "Nova3D Whale",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 109,
+        "name": "Nova3D Whale2",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 110,
+        "name": "Nova3D Whale3 Pro",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 228.096,
+            "h": 128.304
+        }
+    },
+    {
+        "id": 111,
+        "name": "Peopoly Phenom L",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 345.6,
+            "h": 194.4
+        }
+    },
+    {
+        "id": 112,
+        "name": "Peopoly Phenom Noir",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 293.76,
+            "h": 165.24
+        }
+    },
+    {
+        "id": 113,
+        "name": "Peopoly Phenom XXL",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 526.08,
+            "h": 295.92
+        }
+    },
+    {
+        "id": 114,
+        "name": "Peopoly Phenom XXL v2",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 526.08,
+            "h": 295.92
+        }
+    },
+    {
+        "id": 115,
+        "name": "Peopoly Phenom",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 276.48,
+            "h": 155.52
+        }
+    },
+    {
+        "id": 116,
+        "name": "Peopoly Phenom Forge",
+        "resolution": {
+            "x": 5760,
+            "y": 3240
+        },
+        "size": {
+            "w": 288.0,
+            "h": 162.0
+        }
+    },
+    {
+        "id": 117,
+        "name": "Phrozen Shuffle 16",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 337.92,
+            "h": 190.08
+        }
+    },
+    {
+        "id": 118,
+        "name": "Phrozen Shuffle 4K",
+        "resolution": {
+            "x": 2160,
+            "y": 3840
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 119,
+        "name": "Phrozen Shuffle Lite",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 120,
+        "name": "Phrozen Shuffle XL Lite",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 121,
+        "name": "Phrozen Shuffle XL",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 122,
+        "name": "Phrozen Shuffle",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 67.68,
+            "h": 120.32
+        }
+    },
+    {
+        "id": 123,
+        "name": "Phrozen Sonic 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 134.4,
+            "h": 75.6
+        }
+    },
+    {
+        "id": 124,
+        "name": "Phrozen Sonic Mega 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 330.24,
+            "h": 185.76
+        }
+    },
+    {
+        "id": 125,
+        "name": "Phrozen Sonic Mighty 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 199.68,
+            "h": 124.8
+        }
+    },
+    {
+        "id": 126,
+        "name": "Phrozen Sonic Mighty 8K",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 218.88,
+            "h": 123.12
+        }
+    },
+    {
+        "id": 127,
+        "name": "Phrozen Sonic Mini 4K",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 134.4,
+            "h": 75.6
+        }
+    },
+    {
+        "id": 128,
+        "name": "Phrozen Sonic Mini 8K",
+        "resolution": {
+            "x": 7500,
+            "y": 3240
+        },
+        "size": {
+            "w": 165.0,
+            "h": 71.28
+        }
+    },
+    {
+        "id": 129,
+        "name": "Phrozen Sonic Mini 8K S",
+        "resolution": {
+            "x": 7536,
+            "y": 3240
+        },
+        "size": {
+            "w": 165.792,
+            "h": 71.28
+        }
+    },
+    {
+        "id": 130,
+        "name": "Phrozen Sonic Mini",
+        "resolution": {
+            "x": 1080,
+            "y": 1920
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 131,
+        "name": "Phrozen Sonic",
+        "resolution": {
+            "x": 1080,
+            "y": 1920
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 132,
+        "name": "Phrozen Sonic Mighty Revo",
+        "resolution": {
+            "x": 13320,
+            "y": 5120
+        },
+        "size": {
+            "w": 223.776,
+            "h": 126.976
+        }
+    },
+    {
+        "id": 133,
+        "name": "Phrozen Transform",
+        "resolution": {
+            "x": 3840,
+            "y": 2160
+        },
+        "size": {
+            "w": 291.84,
+            "h": 164.16
+        }
+    },
+    {
+        "id": 134,
+        "name": "QIDI I-Box Mono",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 135,
+        "name": "QIDI S-Box",
+        "resolution": {
+            "x": 1600,
+            "y": 2560
+        },
+        "size": {
+            "w": 135.36,
+            "h": 216.576
+        }
+    },
+    {
+        "id": 136,
+        "name": "QIDI Shadow5.5",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 137,
+        "name": "QIDI Shadow6.0 Pro",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 74.52,
+            "h": 132.48
+        }
+    },
+    {
+        "id": 138,
+        "name": "Uniformation GKone",
+        "resolution": {
+            "x": 4920,
+            "y": 2880
+        },
+        "size": {
+            "w": 221.4,
+            "h": 129.6
+        }
+    },
+    {
+        "id": 139,
+        "name": "Uniformation GKtwo",
+        "resolution": {
+            "x": 7680,
+            "y": 4320
+        },
+        "size": {
+            "w": 228.089,
+            "h": 128.3
+        }
+    },
+    {
+        "id": 140,
+        "name": "Uniz IBEE",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 141,
+        "name": "Prusa SL1",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 142,
+        "name": "Prusa SL1S SPEED",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 128.0,
+            "h": 81.0
+        }
+    },
+    {
+        "id": 143,
+        "name": "Voxelab Ceres 8.9",
+        "resolution": {
+            "x": 3840,
+            "y": 2400
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 144,
+        "name": "Voxelab Polaris 5.5",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 68.04,
+            "h": 120.96
+        }
+    },
+    {
+        "id": 145,
+        "name": "Voxelab Proxima 6",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 146,
+        "name": "Voxelab Proxima 6 SVGX",
+        "resolution": {
+            "x": 2560,
+            "y": 1620
+        },
+        "size": {
+            "w": 130.56,
+            "h": 82.62
+        }
+    },
+    {
+        "id": 147,
+        "name": "Wanhao CGR Mini Mono",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 82.62,
+            "h": 130.56
+        }
+    },
+    {
+        "id": 148,
+        "name": "Wanhao CGR Mono",
+        "resolution": {
+            "x": 1620,
+            "y": 2560
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 149,
+        "name": "Wanhao D7",
+        "resolution": {
+            "x": 2560,
+            "y": 1440
+        },
+        "size": {
+            "w": 120.96,
+            "h": 68.5
+        }
+    },
+    {
+        "id": 150,
+        "name": "Wanhao D8",
+        "resolution": {
+            "x": 2560,
+            "y": 1600
+        },
+        "size": {
+            "w": 192.0,
+            "h": 120.0
+        }
+    },
+    {
+        "id": 151,
+        "name": "Zortrax Inkspire",
+        "resolution": {
+            "x": 1440,
+            "y": 2560
+        },
+        "size": {
+            "w": 74.67,
+            "h": 132.88
+        }
+    }
+]
