@@ -4,14 +4,14 @@ import hashlib
 from datetime import datetime
 from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import Response
-from gerber2png import Gerber2Png
+from fastapi.responses import Response, JSONResponse
+from .gerber2png import Gerber2Png
 import uvicorn
 
-gerber2png = Gerber2Png()
-
 # Storage base directory
-STORAGE_BASE_DIR = os.getenv("STORAGE_DIR", "storage")
+STORAGE_BASE_DIR = os.environ.get("STORAGE_DIR", "storage")
+gerber2png = Gerber2Png(storage_dir=STORAGE_BASE_DIR)
+
 PORT = os.getenv("PORT", 8000)
 if not os.path.exists(STORAGE_BASE_DIR):
     os.makedirs(STORAGE_BASE_DIR)
@@ -26,7 +26,7 @@ def generate_filename(content: bytes) -> str:
     content_hash = hashlib.md5(content).hexdigest()[:8]
     
     # Create a directory for the current date if it doesn't exist
-    date_dir = os.path.join(STORAGE_BASE_DIR, date_str)
+    date_dir = os.path.join(gerber2png.storage_dir, date_str)
     if not os.path.exists(date_dir):
         os.makedirs(date_dir)
     
@@ -59,9 +59,18 @@ async def convert_gerber(
         drill_content = await drill_file.read()
         
         # Generate base filename
-        base_filename = generate_filename(gerber_content + drill_content)
+        now = datetime.now()
+        date_str = now.strftime("%Y%m%d")
+        time_str = now.strftime("%H%M%S")
+        content_hash = hashlib.md5(gerber_content + drill_content).hexdigest()[:8]
+        
+        # Create a directory for the current date if it doesn't exist
+        date_dir = os.path.join(gerber2png.storage_dir, date_str)
+        if not os.path.exists(date_dir):
+            os.makedirs(date_dir)
         
         # Save original files
+        base_filename = os.path.join(date_dir, f"{date_str}_{time_str}_{content_hash}")
         gerber_save_path = f"{base_filename}.gbr"
         drill_save_path = f"{base_filename}.drl"
         with open(gerber_save_path, 'wb') as f:
@@ -69,8 +78,10 @@ async def convert_gerber(
         with open(drill_save_path, 'wb') as f:
             f.write(drill_content)
 
-        # Convert to PNG
-        output_file = tempfile.NamedTemporaryFile(delete=False, suffix='.png').name
+        # Convert to PNG using temporary file
+        with tempfile.NamedTemporaryFile(delete=False, suffix='.png') as temp_output:
+            output_file = temp_output.name
+            
         gerber2png.logger.debug(f"Printer ID: {printer_id}")
         gerber2png.logger.debug(f"Gerber file: {gerber_save_path}")
         gerber2png.logger.debug(f"Drill file: {drill_save_path}")
@@ -88,16 +99,15 @@ async def convert_gerber(
         
         if not os.path.exists(output_file):
             gerber2png.logger.error(f"Output file does not exist: {output_file}")
-            return Response(
+            return JSONResponse(
                 content={"error": "Output file does not exist"},
-                media_type="application/json",
                 status_code=500
             )
         
         with open(output_file, 'rb') as f:
             png_content = f.read()
         
-        # Delete temporary files
+        # Delete only temporary PNG file
         os.unlink(output_file)
 
         return Response(
@@ -109,9 +119,8 @@ async def convert_gerber(
         )
     except Exception as e:
         gerber2png.logger.error(f"Error during conversion: {str(e)}")
-        return Response(
+        return JSONResponse(
             content={"error": str(e)},
-            media_type="application/json",
             status_code=500
         )
 

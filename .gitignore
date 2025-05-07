@@ -24,3 +24,8 @@ frontend/yarn-error.log*
 
 backend/storage
 storage
+
+__pycache__
+*.pyc
+.pytest_cache
+.coverage

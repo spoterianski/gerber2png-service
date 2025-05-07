@@ -19,12 +19,15 @@ from PIL import Image, ImageDraw
 
 
 class Gerber2Png:
-    def __init__(self):
+    def __init__(self, storage_dir="storage"):
         self.logger = loguru.logger
         self.logger.remove()
         self.logger.add(sys.stdout, format="{time:YYYY-MM-DD HH:mm:ss} {level}: {message}", 
                         level=os.getenv("LOG_LEVEL", "INFO"))
         self.printers = self.load_printers('printers.json')
+        self.storage_dir = storage_dir
+        if not os.path.exists(self.storage_dir):
+            os.makedirs(self.storage_dir)
 
     def load_printers(self, printers_filename):
         """
@@ -60,7 +63,7 @@ class Gerber2Png:
 
     def get_printers(self):
         """
-        Print the loaded printer parameters.
+        Return list of available printers.
         """
         return self.printers
         
@@ -163,4 +166,5 @@ class Gerber2Png:
 
         img_resized.save(output_file)
         self.logger.debug(f"Done: image saved to: {output_file}")
+        return True
 
