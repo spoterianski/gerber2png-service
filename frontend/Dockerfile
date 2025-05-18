@@ -3,18 +3,17 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package*.json ./
+# Копируем файлы package.json и package-lock.json
+COPY frontend/package*.json ./
 RUN npm ci
 
-# Копируем .env файл
+# Копируем .env файл из корневой директории
 COPY .env ./
 
-# Копируем исходный код
-COPY . .
+# Копируем исходный код frontend
+COPY frontend/ .
 
-# Собираем приложение (переменные окружения будут доступны при сборке)
-ARG REACT_APP_API_URL
-ENV REACT_APP_API_URL=${REACT_APP_API_URL}
+# Собираем приложение
 RUN npm run build
 
 RUN npm install -g serve
