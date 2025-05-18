@@ -137,8 +137,6 @@ const FileUpload: React.FC = () => {
     setImageUrl(null);
     setError(null);
     setProgress(0);
-    const firstKey = Object.keys(printers)[0];
-    setSelectedPrinter(firstKey || '');
   };
 
   return (
