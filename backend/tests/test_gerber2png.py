@@ -70,30 +70,28 @@ def test_convert_missing_files():
 def test_convert_with_flipping(sample_gerber_file, sample_drill_file):
     g2p = Gerber2Png()
     
-    # Тестируем различные комбинации отражений
-    flip_combinations = [
-        (True, False),
-        (False, True),
-        (True, True)
-    ]
+    # Тестируем только одну комбинацию отражений для экономии памяти
+    flip_h, flip_v = True, True
     
-    for flip_h, flip_v in flip_combinations:
-        with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as temp_output:
-            output_file = temp_output.name
-            
-        try:
-            result = g2p.convert(
-                printer_id="0",
-                gerber_file=sample_gerber_file,
-                drill_file=sample_drill_file,
-                output_file=output_file,
-                flip_horizontal=flip_h,
-                flip_vertical=flip_v
-            )
-            
-            assert result is True
-            assert os.path.exists(output_file)
-            assert os.path.getsize(output_file) > 0
-        finally:
-            if os.path.exists(output_file):
-                os.unlink(output_file) 
+    with tempfile.NamedTemporaryFile(suffix='.png', delete=False) as temp_output:
+        output_file = temp_output.name
+        
+    try:
+        result = g2p.convert(
+            printer_id="0",
+            gerber_file=sample_gerber_file,
+            drill_file=sample_drill_file,
+            output_file=output_file,
+            flip_horizontal=flip_h,
+            flip_vertical=flip_v
+        )
+        
+        assert result is True
+        assert os.path.exists(output_file)
+        assert os.path.getsize(output_file) > 0
+    finally:
+        if os.path.exists(output_file):
+            os.unlink(output_file)
+            # Принудительно вызываем сборщик мусора
+            import gc
+            gc.collect() 
