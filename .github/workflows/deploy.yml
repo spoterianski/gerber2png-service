@@ -20,15 +20,20 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
+            mkdir -p ${{ secrets.APP_FOLDER }}
             cd ${{ secrets.APP_FOLDER }}
-            git pull origin main
+
+            if [ ! -d .git ]; then
+              git init
+              git remote add origin https://github.com/spoterianski/gerber2png-service.git
+            fi
+
+            git fetch origin
+            git reset --hard origin/main
             
-            # Останавливаем текущие контейнеры
-            sudo docker-compose down
+            sudo docker-compose down || true
             
-            # Собираем и запускаем новые контейнеры
             sudo docker-compose build --no-cache
             sudo docker-compose up -d
             
-            # Очищаем неиспользуемые образы
             sudo docker image prune -f 
