@@ -40,18 +40,19 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ${{ secrets.APP_FOLDER }}
-            git pull origin main
-            
-            # Обновляем версию в footer
-            sed -i "s/Version: .*/Version: ${{ needs.version.outputs.version }}/" frontend/src/App.tsx
             
             if [ ! -d .git ]; then
               git init
               git remote add origin https://github.com/spoterianski/gerber2png-service.git
             fi
+            
+            git pull origin main
 
             git fetch origin
             git reset --hard origin/main
+            
+            # Обновляем версию в footer
+            sed -i "s/Version: .*/Version: ${{ needs.version.outputs.version }}/" frontend/src/App.tsx
             
             sudo docker-compose down || true
             

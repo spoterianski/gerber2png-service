@@ -37,7 +37,7 @@ const App: React.FC = () => {
 
         {/* Footer */}
         <footer className="bg-white border-t border-gray-300 text-center p-4 text-sm text-gray-600">
-          © 2025 Sergey Poterianski | License: MIT | Version: 1.0.0
+          © 2025 Sergey Poterianski | License: MIT | From Russia <span title="From Russia with love" className="cursor-help">🇷🇺</span> | Version: 1.0.0
         </footer>
       </div>
     </Router>
