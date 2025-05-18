@@ -6,12 +6,51 @@ on:
       - main
 
 jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+
+      - name: Bump version
+        run: |
+          # Читаем текущую версию
+          VERSION=$(cat version.txt)
+          
+          # Разбиваем версию на компоненты
+          IFS='.' read -r -a VERSION_PARTS <<< "$VERSION"
+          PATCH=${VERSION_PARTS[2]}
+          
+          # Увеличиваем патч-версию
+          NEW_PATCH=$((PATCH + 1))
+          NEW_VERSION="${VERSION_PARTS[0]}.${VERSION_PARTS[1]}.$NEW_PATCH"
+          
+          # Записываем новую версию
+          echo "$NEW_VERSION" > version.txt
+          
+          # Коммитим изменения
+          git add version.txt
+          git commit -m "Bump version to $NEW_VERSION [skip ci]"
+          git push
+
   deploy:
+    needs: version
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Get version
+        id: get_version
+        run: echo "VERSION=$(cat version.txt)" >> $GITHUB_OUTPUT
 
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
@@ -20,9 +59,12 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            mkdir -p ${{ secrets.APP_FOLDER }}
             cd ${{ secrets.APP_FOLDER }}
-
+            git pull origin main
+            
+            # Обновляем версию в footer
+            sed -i "s/Version: .*/Version: ${{ steps.get_version.outputs.VERSION }}/" frontend/src/components/Footer.tsx
+            
             if [ ! -d .git ]; then
               git init
               git remote add origin https://github.com/spoterianski/gerber2png-service.git
