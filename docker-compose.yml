@@ -5,6 +5,7 @@ services:
     build: 
       context: ./backend
       target: builder
+    restart: always
     ports:
       - "8000:8000"
     volumes:
@@ -19,6 +20,7 @@ services:
       dockerfile: frontend/Dockerfile
       args:
         - REACT_APP_API_URL=${REACT_APP_API_URL}
+    restart: always
     ports:
       - "3000:3000"
     env_file:
